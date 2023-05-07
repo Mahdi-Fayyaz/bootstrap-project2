@@ -1,0 +1,105 @@
+body{
+    font-family: 'Akaya Telivigala', cursive;
+}
+.navbar{
+    background-color: rgb(255, 81, 0);
+}
+.arrow{
+  font-weight: bolder;
+  background-color: rgb(184, 125, 58);
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-image: radial-gradient(rgb(255, 30, 0),rgb(255, 230, 0))}
+  25%  {background-image: radial-gradient(rgb(255, 174, 0),rgb(255, 217, 0))}
+  50%  {background-image: radial-gradient(rgb(0, 204, 255),rgb(8, 243, 165))}
+  100% {background-image: radial-gradient(rgb(150, 30, 197)rgb(255, 0, 0))}
+}
+.arrow:hover{
+    background-image: radial-gradient(rgb(255, 30, 0),rgb(255, 72, 0));
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+.arrow:active{
+    background-image: linear-gradient(rgb(255, 94, 0),rgb(255, 217, 0));
+    color: rgb(0, 0, 0);
+}
+.bi-top{
+    background-image: linear-gradient(rgb(255, 102, 0),rgb(255, 174, 0));
+}
+.font-first{
+    font-size: 14px;
+}
+.hr-two{
+    margin: 20px 200px 20px 200px;
+    border: 2px solid rgb(211, 210, 210);
+}
+.bi-two{
+   color:rgb(255, 102, 0);
+}
+.email-three{
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: inherit;
+}
+.ul-four{
+    line-height: 2;
+}
+.rowe{
+    margin-top: -100px;
+}
+.bottem{
+    background-image: radial-gradient(rgb(255, 30, 0),rgb(255, 72, 0));
+}
+.bi-bottem{
+    background-color: white;
+    color: rgb(255, 72, 0) ;
+    font-size: 20px;
+}
+.font-face{
+    font-size: 30px;
+    color: aliceblue;
+}
+.btn-first{
+    background-image: linear-gradient(rgb(112, 1, 1),rgb(255, 0, 0));
+    font-size: smaller;
+}
+.btn-top{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 81, 0);
+    font-size: 12px;
+}
+.btn-nun{
+    border: 2px solid rgb(255, 254, 254);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+.btn:hover{
+    background-image: radial-gradient(rgb(255, 30, 0),rgb(255, 72, 0));
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+.btn:visited{
+    background-color: rgb(255, 187, 0);
+    color: rgb(104, 207, 7);
+}
+.btn:active{
+    background-image: linear-gradient(rgb(255, 94, 0),rgb(255, 217, 0));
+    color: rgb(0, 0, 0);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(255, 51, 0);
+}
+a:active{
+    color: rgb(255, 0, 0);
+}
+.transform:hover{
+    transform: scale(1.1);
+    
+}
